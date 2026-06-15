@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    background:#e9eef5;
+    font-family:Arial;
+}
+
+/* bouton retour */
+.retour{
+    position:absolute;
+    top:20px;
+    right:20px;
+    text-decoration:none;
+    background:#4da3ff;
+    color:white;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+.retour:hover{
+    background:#2d8cff;
+}
+
+/* cadre */
+.box{
+    width:320px;
+    margin:120px auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+/* écran */
+#ecran{
+    width:90%;
+    padding:10px;
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+/* buttons grid */
+.btns{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:10px;
+}
+
+button{
+    padding:15px;
+    border:none;
+    background:#4da3ff;
+    color:white;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2d8cff;
+}
+
+/* bouton C */
+.clear{
+    grid-column:span 4;
+    background:red;
+}
+
+.clear:hover{
+    background:darkred;
+}

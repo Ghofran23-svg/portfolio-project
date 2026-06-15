@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    background:#e9eef5;
+    font-family:Arial;
+}
+
+.retour{
+    position:absolute;
+    top:20px;
+    right:20px;
+    text-decoration:none;
+    background:#4da3ff;
+    color:white;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+.retour:hover{
+    background:#2d8cff;
+}
+
+.box{
+    width:400px;
+    margin:120px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+input{
+    padding:10px;
+    width:70%;
+}
+
+button{
+    padding:10px;
+    background:#4da3ff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2d8cff;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+}
+
+li{
+    background:#f5f7fa;
+    margin:10px 0;
+    padding:10px;
+    border-radius:8px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+li button{
+    background:red;
+    padding:5px 10px;
+}
+
+li button:hover{
+    background:darkred;
+}
