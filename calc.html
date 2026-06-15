@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="stylecalc.css">
+</head>
+<body>
+
+<a href="index.html" class="retour">← Retour</a>
+
+<div class="box">
+
+    <h1>Calculatrice</h1>
+
+    <input type="text" id="ecran" readonly>
+
+    <div class="btns">
+<button onclick="ajouter('7')">7</button>
+<button onclick="ajouter('8')">8</button>
+<button onclick="ajouter('9')">9</button>
+<button onclick="ajouter('/')">/</button>
+
+<button onclick="ajouter('4')">4</button>
+<button onclick="ajouter('5')">5</button>
+<button onclick="ajouter('6')">6</button>
+<button onclick="ajouter('*')">*</button>
+
+<button onclick="ajouter('1')">1</button>
+<button onclick="ajouter('2')">2</button>
+<button onclick="ajouter('3')">3</button>
+<button onclick="ajouter('-')">-</button>
+
+<button onclick="ajouter('0')">0</button>
+<button onclick="ajouter('.')">.</button>
+<button onclick="calculer()">=</button>
+<button onclick="ajouter('+')">+</button>
+
+        <button class="clear" onclick="effacer()">C</button>
+    </div>
+
+</div>
+
+
+<script>
+
+ecran = document.getElementById("ecran");
+
+function ajouter(valeur) {
+    ecran.value += valeur 
+}
+
+function calculer() {
+    try {
+        ecran.value = eval(ecran.value);
+    } catch {
+        ecran.value = "Erreur";
+    }
+}
+function effacer() {
+    ecran.value = "" 
+}
+
+</script>
+</body>
+</html>
