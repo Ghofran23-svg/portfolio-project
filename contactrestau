@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a href="restau.html" class="retour">← Retour</a>
+
+<div class="box">
+
+    <h1>Contact</h1>
+
+    <ul class="contact">
+        <li>📍 Adresse : Kairouan</li>
+        <li>📞 Téléphone : 53 219 533</li>
+        <li>📧 Email : contact@restaurant.tn</li>
+    </ul>
+
+</div>
+
+</body>
+</html>
